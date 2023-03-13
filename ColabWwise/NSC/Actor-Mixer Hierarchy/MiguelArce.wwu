@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C362FF4D-8253-43DC-90A4-02AE506CEE58}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="MiguelArce" ID="{C362FF4D-8253-43DC-90A4-02AE506CEE58}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="miguelarce" ID="{D073F868-CCEA-48F8-9633-810CC2EE1C78}" ShortID="701715023">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B095AA85-54E9-45B3-A032-C08F48F68334}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A514F9B-D2D9-43D9-BD5A-BF0D766AFCEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shotgun_shot" ID="{3E464465-DA01-4FD3-A195-4A6D6128590F}">
+							<Language>SFX</Language>
+							<AudioFile>Shotgun_shot.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="945645027"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Shotgun_shot" ID="{3E464465-DA01-4FD3-A195-4A6D6128590F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
